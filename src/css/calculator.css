@@ -48,16 +48,16 @@
 .button-row button{
 	width: 58px;
 	font-size: 30px;
-	margin: 0 2px 0 2px;
+	margin: 0 6px 0 6px;
 	padding: 8px 0 8px 0;
 }
 
 .button-row button:first-child{
-	margin: 0 2px 0 0;
+	margin: 0 6px 0 0;
 }
 
 .button-row button:last-child{
-	margin: 0 0 0 2px;
+	margin: 0 0 0 6px;
 }
 
 .button-row button.no-margin{
