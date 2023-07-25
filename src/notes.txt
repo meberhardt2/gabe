@@ -1,0 +1,5 @@
+view => command pallet
+open settings
+
+"editor.detectIndentation": false,
+"html.autoCreateQuotes": false

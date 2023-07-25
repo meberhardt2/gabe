@@ -1,0 +1,61 @@
+body{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 22px;
+}
+
+.row{
+	margin: 0;
+}
+
+#guessing-header{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+.back-to-home{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.back-to-home a{
+	color: #ffffff;
+}
+
+.back-arrow{
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.instructions{
+	text-align: center;
+}
+
+.guessing-holder-row{
+	margin-top: 20px;
+}
+
+.guessing-holder input{
+	font-size: 40px;
+	height: 100%;
+}
+
+.button-row{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.button-row button{
+	font-size: 36px;
+}
+
+#message{
+	margin:10px 0 10px 0;
+	text-align: center;
+	height: 33px;
+	color: #49c0f0;
+}

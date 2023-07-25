@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/guessing.css" />
+
+	<title id="title"></title>
+
+</head>
+
+<body>
+	<div class="back-to-home"><a href="../index.html"><span class="back-arrow">&#8592;</span> Back</a></div>
+
+	<div id="guessing-header">Guess!</div>
+
+	<div class="row">
+		<div class="col-12 instructions">
+			<div>Guess a number between<br />1 and 1,000.</div>
+			<div>You have <span id="how-many-tries"></span> guesses left</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12" id="message"></div>
+	</div>
+
+	<div class="row guessing-holder-row">
+		<div class="col-3"></div>
+		<div class="col-6 guessing-holder">
+			<input type="text" class="form-control input-lg guessing-number" name="guessing-number" id="guessing-number" />
+		</div>
+		<div class="col-3"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-12 button-row">
+			<button class="btn btn-primary">Check</button>
+		</div>
+	</div>
+</body>
+
+<script src="../js/guessing.js"></script>
+
+</html>
