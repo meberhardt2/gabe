@@ -4,6 +4,7 @@ var header = "A Simple Calculator1";
 var number_pushed1 = '';
 var number_pushed2 = '';
 var what_step = 'step1';
+var operator = '';
 /*************************************************************/
 
 
@@ -31,28 +32,59 @@ function number_click(element){
 }
 /*************************************************************/
 
+/*************************************************************/
+function problem_solver(){
+	var answer; 
+
+	if (operator === '+'){
+		answer = parseInt(number_pushed1,0) + parseInt(number_pushed2,0);
+	}
+
+	if (operator === '-'){
+		answer = parseInt(number_pushed1,0) - parseInt(number_pushed2,0);
+	}
+
+	if (operator === '/'){
+		answer = parseInt(number_pushed1,0) / parseInt(number_pushed2,0);
+	}
+
+	if (operator === '*'){
+		answer = parseInt(number_pushed1,0) * parseInt(number_pushed2,0);
+	}
+
+	number_pushed1 = '';
+	number_pushed2 = '';
+	what_step = 'step1';
+
+	display_change(answer);
+}
+/*************************************************************/
 
 /*************************************************************/
 function calc_functions(){
 	var function_pushed = this.innerHTML;
 	
 	if (function_pushed === '+'){
+		operator = '+';
 		what_step = 'step2';
 	}
 	if (function_pushed === '-'){
+		operator = '-';
 		what_step = 'step2';
 
 	}
 	if (function_pushed === '*'){
+		operator = '*';	
 		what_step = 'step2';
 
 	}
 	if (function_pushed === '/'){
+		operator = '/';
 		what_step = 'step2';
 
 	}
 	if (function_pushed === '='){
-
+		problem_solver();
 	}
 	if (function_pushed === 'C'){
 		number_pushed1 = '';
