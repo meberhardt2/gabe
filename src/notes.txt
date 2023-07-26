@@ -1,5 +1,5 @@
 view => command pallet
 open settings
 
-"editor.detectIndentation": false,
+"editor.autoClosingQuotes": "never",
 "html.autoCreateQuotes": false
