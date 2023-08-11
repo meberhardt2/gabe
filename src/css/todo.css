@@ -1,9 +1,19 @@
 body{
-	background-color: #000000;
+	background-color: #0f6010;
 	color: #ffffff;
 	font-size: 22px;
 }
 
 .row{
 	margin: 0;
+}
+
+#header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	border: 1px solid #ffffff;
+	width: 300px;
+	height:80px;
+	overflow: auto;
 }
